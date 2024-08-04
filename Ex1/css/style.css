@@ -1,41 +1,31 @@
-body{
-    background-color: aliceblue;
-    height: fit-content;
-}
 div{
-    background-color: lightpink;
+    background: pink;
+    margin: 20px;
+    border-top: solid 20px purple;
+    border-bottom: solid 20px purple;
     border-radius: 20px;
+    padding: 30px;
 }
-#green{
-    background-color: green;
-    border-radius: 10px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    text-align: center;
-
-}
-#red{
-    background-color: red;
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 400px;
-    padding-top: 20px;
-    padding-bottom: 80px;
-    text-align: center;
-    border-right: 20px orange;
-   
-}
-#blue{
-    background: blue;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+#green, #red, #blue{
     text-align: center;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+}
+
+#green{
+    padding: 60px 0px 40px 0px;
+    background: green;
+    border:5px dashed yellow;
+}
+#red{
+    padding: 20px 0px 80px 0px;
+    background: red;
+    width: 400px;
+    border-right: 20px solid orange;
+    margin: 30px 0px 50px 0px;
+}
+
+#blue{
+    background: blue;
     width: 50%;
+    border: 5px dotted #000;
 }
